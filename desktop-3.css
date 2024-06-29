@@ -7,7 +7,7 @@
   min-height: 75px;
 }
 .about-me1,
-.skills1 {
+.skills3 {
   text-decoration: none;
   position: relative;
   color: inherit;
@@ -17,17 +17,17 @@
   min-width: 114px;
   white-space: nowrap;
 }
-.skills1 {
+.skills3 {
   min-width: 65px;
 }
-.projects3 {
+.projects4 {
   display: inline-block;
   min-width: 96px;
 }
 .certifications1,
 .education1,
-.experience2,
-.projects3 {
+.experience4,
+.projects4 {
   text-decoration: none;
   position: relative;
   color: inherit;
@@ -58,7 +58,7 @@
   box-sizing: border-box;
   max-width: 100%;
 }
-.rectangle-div {
+.frame-child1 {
   height: 72px;
   width: 230px;
   position: relative;
@@ -77,12 +77,12 @@
   text-align: left;
   z-index: 1;
 }
-.main,
-.rectangle-container {
+.group-button,
+.main {
   display: flex;
   flex-direction: row;
 }
-.rectangle-container {
+.group-button {
   cursor: pointer;
   border: 0;
   padding: var(--padding-lg) var(--padding-29xl) var(--padding-lgi);
@@ -93,7 +93,7 @@
   justify-content: flex-start;
   white-space: nowrap;
 }
-.rectangle-container:hover {
+.group-button:hover {
   background-color: var(--color-gainsboro-100);
 }
 .main {
@@ -103,8 +103,8 @@
   max-width: 100%;
   gap: var(--gap-xl);
 }
-.about1,
-.me1 {
+.about2,
+.me2 {
   margin: 0;
   height: 66px;
   position: relative;
@@ -113,11 +113,11 @@
   font-family: inherit;
   display: inline-block;
 }
-.me1 {
+.me2 {
   align-self: stretch;
   height: 64px;
 }
-.about-parent,
+.about-group,
 .heading,
 .name-value {
   display: flex;
@@ -127,11 +127,11 @@
 .name-value {
   width: 91px;
   flex-direction: column;
-  padding: 1.7px 0 0;
+  padding: var(--padding-11xs-7) 0 0;
   box-sizing: border-box;
   color: var(--color-sandybrown);
 }
-.about-parent,
+.about-group,
 .heading {
   flex-direction: row;
 }
@@ -226,8 +226,8 @@
   }
 }
 @media screen and (max-width: 1000px) {
-  .about1,
-  .me1 {
+  .about2,
+  .me2 {
     font-size: var(--font-size-25xl);
   }
   .hello-im-kunal {
@@ -246,8 +246,8 @@
   }
 }
 @media screen and (max-width: 450px) {
-  .about1,
-  .me1 {
+  .about2,
+  .me2 {
     font-size: var(--font-size-14xl);
   }
   .hello-im-kunal {
