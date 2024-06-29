@@ -1,0 +1,457 @@
+.my {
+  text-decoration: none;
+  height: 74px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  min-width: 85px;
+  flex-shrink: 0;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-4) 0 0;
+}
+.projects2 {
+  margin-left: -1px;
+  text-decoration: none;
+  align-self: stretch;
+  height: 76px;
+  position: relative;
+  color: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.navigation1,
+.projects-navigation,
+.projects1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.projects1 {
+  flex: 1;
+  flex-direction: column;
+  padding: 0;
+  color: var(--color-sandybrown);
+}
+.navigation1,
+.projects-navigation {
+  width: 308px;
+  flex-direction: row;
+}
+.navigation1 {
+  width: 1164px;
+  justify-content: center;
+  max-width: 100%;
+}
+.kkmusic-project-child {
+  height: 370px;
+  width: 520px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(243.15deg, #fd8d8b, #ffae79 75%, #fc6c9c);
+  display: none;
+  max-width: 100%;
+}
+.kkmusic-website,
+.music-app-details {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.music-app-details {
+  align-self: stretch;
+  height: 150.2px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.kkmusic-website {
+  text-shadow: 0.4px 0 0#fff, 0 0.4px 0#fff, -0.4px 0 0#fff, 0-0.4px 0#fff;
+}
+.developed-a-music {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.multimedia-details,
+.website-description {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.website-description {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-12xs);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+}
+.multimedia-details {
+  flex: 1;
+  flex-direction: column;
+  gap: 10.9px;
+  min-width: 222px;
+}
+.notes-app-details {
+  height: 270px;
+  width: 125px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.kkmusic-project,
+.kknotes-project-child {
+  width: 520px;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+}
+.kkmusic-project {
+  background: linear-gradient(243.15deg, #fd8d8b, #ffae79 75%, #fc6c9c);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xl) 23px var(--padding-base) var(--padding-6xl);
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+}
+.kknotes-project-child {
+  height: 370px;
+  position: relative;
+  background: linear-gradient(244deg, #fd8d8b, #ffae79 74.5%, #fc6c9c);
+  display: none;
+}
+.kknotes-bsccs-android {
+  position: relative;
+  z-index: 1;
+}
+.kknotes-bsccs-android-applica-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 var(--padding-sm);
+}
+.notes-feature-icon {
+  width: 144px;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 290px;
+}
+.notes-feature-icon,
+.notes-providing-application {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.notes-description {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-24xl) var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  min-width: 129px;
+}
+.notes-platform-icon {
+  align-self: stretch;
+  width: 141px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 290px;
+  z-index: 1;
+}
+.notes-feature-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+}
+.kknotes-project,
+.multimedia-project {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.kknotes-project {
+  width: 520px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(244deg, #fd8d8b, #ffae79 74.5%, #fc6c9c);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 7px var(--padding-3xs) var(--padding-9xl) var(--padding-mini);
+  box-sizing: border-box;
+  gap: 10px;
+}
+.multimedia-project {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-kaisei-harunoumi);
+}
+.block-banger-game-project-child {
+  width: 769px;
+  height: 338px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background: linear-gradient(254.13deg, #fd8d8b, #ffae79 74.91%, #fc6c9c);
+  display: none;
+  max-width: 100%;
+}
+.game-screenshot-icon,
+.game-screenshot-icon1 {
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 140px;
+  z-index: 1;
+}
+.game-screenshot-icon {
+  height: 121px;
+}
+.game-screenshot-icon1 {
+  align-self: stretch;
+  max-height: 100%;
+  min-height: 124px;
+}
+.game-screenshots {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-5xl-2);
+}
+.block-banger-unity3d {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0.4px 0 0#fff, 0 0.4px 0#fff, -0.4px 0 0#fff, 0-0.4px 0#fff;
+  max-width: 100%;
+  z-index: 1;
+}
+.game-title,
+.game-visuals {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.game-title {
+  width: 431.7px;
+  flex-direction: row;
+  padding: 0 var(--padding-xs);
+  box-sizing: border-box;
+}
+.game-visuals {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-5xl);
+}
+.game-asset-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+.game-content,
+.game-element {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.game-element {
+  height: 124px;
+  width: 215.8px;
+  flex-direction: column;
+  padding: 3px 0 0;
+  box-sizing: border-box;
+  min-width: 215.8px;
+}
+.game-content {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-5xl-2);
+  max-width: 100%;
+}
+.a-dynamic-unity {
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  z-index: 1;
+}
+.game-description {
+  width: 686px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm);
+  font-size: var(--font-size-xl);
+  color: var(--color-darkslateblue);
+}
+.block-banger-game-project,
+.game-description,
+.game-project {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.block-banger-game-project {
+  width: 769px;
+  border-radius: var(--br-xl);
+  background: linear-gradient(254.13deg, #fd8d8b, #ffae79 74.91%, #fc6c9c);
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 37px var(--padding-17xl) var(--padding-17xl);
+  gap: var(--gap-5xl);
+}
+.game-project {
+  width: 1163px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-kaisei-harunoumi);
+}
+.highlight-icon {
+  width: 555.5px;
+  height: 566.1px;
+  position: absolute;
+  margin: 0 !important;
+  right: -342.5px;
+  bottom: -139.1px;
+  object-fit: contain;
+}
+.content,
+.desktop-4 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.content {
+  align-self: stretch;
+  gap: 89px;
+  max-width: 100%;
+}
+.desktop-4 {
+  width: 100%;
+  background-color: var(--color-midnightblue);
+  overflow: hidden;
+  padding: 1.4px 97px 99px 138px;
+  box-sizing: border-box;
+  gap: 50.2px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-kaisei-harunoumi);
+}
+@media screen and (max-width: 1300px) {
+  .multimedia-project {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .my,
+  .projects2 {
+    font-size: var(--font-size-25xl);
+  }
+  .notes-app-details {
+    flex: 1;
+  }
+  .game-screenshots,
+  .kkmusic-project,
+  .notes-feature-parent {
+    flex-wrap: wrap;
+  }
+  .game-asset-icon {
+    align-self: stretch;
+    width: auto;
+  }
+  .game-element {
+    flex: 1;
+  }
+  .game-content {
+    flex-wrap: wrap;
+  }
+  .content {
+    gap: 44px;
+  }
+  .desktop-4 {
+    gap: var(--gap-6xl);
+    padding-left: var(--padding-50xl);
+    padding-right: var(--padding-29xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .my,
+  .projects2 {
+    font-size: var(--font-size-14xl);
+  }
+  .kkmusic-website {
+    font-size: var(--font-size-lgi);
+  }
+  .developed-a-music {
+    font-size: var(--font-size-base);
+  }
+  .kkmusic-project {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .kknotes-bsccs-android {
+    font-size: var(--font-size-lgi);
+  }
+  .notes-providing-application {
+    font-size: var(--font-size-base);
+  }
+  .block-banger-unity3d {
+    font-size: var(--font-size-lgi);
+  }
+  .a-dynamic-unity {
+    font-size: var(--font-size-base);
+  }
+  .content {
+    gap: var(--gap-3xl);
+  }
+  .desktop-4 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

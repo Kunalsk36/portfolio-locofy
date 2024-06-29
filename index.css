@@ -1,0 +1,275 @@
+.desktop-1-child,
+.logo-icon {
+  position: absolute;
+  object-fit: contain;
+}
+.desktop-1-child {
+  top: 168.4px;
+  left: -5.2px;
+  width: 274.3px;
+  height: 574.2px;
+}
+.logo-icon {
+  bottom: 904px;
+  left: 67px;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+}
+.about-me,
+.education,
+.projects,
+.skills {
+  text-decoration: none;
+  position: absolute;
+  top: 66px;
+  left: 224px;
+  color: inherit;
+  display: inline-block;
+  min-width: 114px;
+  cursor: pointer;
+}
+.education,
+.projects,
+.skills {
+  left: 368px;
+  min-width: 65px;
+}
+.education,
+.projects {
+  left: 463px;
+  min-width: 96px;
+}
+.education {
+  top: 67px;
+  left: 589px;
+  min-width: 120px;
+}
+.hey-im-kunal {
+  margin: 0;
+  position: absolute;
+  top: 389px;
+  left: 104px;
+  font-size: var(--font-size-36xl);
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.i-thrive-on {
+  position: absolute;
+  top: 480px;
+  left: 127px;
+  display: inline-block;
+  width: 621px;
+  height: 175px;
+  z-index: 1;
+}
+.explore-my-portfolio {
+  position: absolute;
+  top: 329px;
+  left: 105px;
+  z-index: 1;
+}
+.download-cv-btn-child {
+  height: 100px;
+  width: 400px;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background: linear-gradient(61.93deg, #fc7198, #fca76e 30.14%);
+  display: none;
+  max-width: 100%;
+}
+.download-my-cv {
+  position: relative;
+  font-size: 30px;
+  font-family: var(--font-kaisei-harunoumi);
+  color: var(--color-white);
+  text-align: left;
+  -webkit-text-stroke: 1px #ffead6;
+  z-index: 1;
+}
+.download-cv-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-10xl) 71px var(--padding-9xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 212px);
+  left: calc(50% - 520px);
+  border-radius: var(--br-81xl);
+  background: linear-gradient(61.93deg, #fc7198, #fca76e 30.14%);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  z-index: 1;
+}
+.certifications,
+.experience {
+  text-decoration: none;
+  position: absolute;
+  top: 67px;
+  left: 0;
+  color: inherit;
+  cursor: pointer;
+  z-index: 1;
+}
+.experience {
+  top: 66px;
+  left: 190px;
+}
+.frame-child {
+  height: 72px;
+  width: 230px;
+  position: relative;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.contact-me {
+  text-decoration: none;
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 700;
+  font-family: var(--font-kaisei-harunoumi);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 1;
+}
+.rectangle-parent {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-lg) var(--padding-29xl) var(--padding-lgi);
+  background-color: var(--color-white);
+  position: absolute;
+  top: 48px;
+  left: 413px;
+  box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.25);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.rectangle-parent:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.frame-item,
+.kkpic1-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.kkpic1-icon {
+  top: 331px;
+  left: 45px;
+  border-radius: 50%;
+  width: 380px;
+  height: 380px;
+  z-index: 1;
+}
+.images-icon,
+.images-icon1 {
+  position: absolute;
+  top: 346px;
+  left: 430px;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 1;
+}
+.images-icon1 {
+  top: 640px;
+}
+.frame-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-161xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.image-background-icon {
+  position: absolute;
+  width: calc(100% - 10px);
+  top: 5px;
+  right: 5px;
+  left: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  height: 50px;
+  object-fit: contain;
+  z-index: 1;
+}
+.rectangle-group {
+  position: absolute;
+  top: 481px;
+  left: 475px;
+  border-radius: var(--br-161xl);
+  background-color: var(--color-white);
+  width: 60px;
+  height: 60px;
+  z-index: 1;
+}
+.vector-parent {
+  position: absolute;
+  top: -67px;
+  left: 26px;
+  width: 826.6px;
+  height: 911px;
+}
+.certifications-parent,
+.desktop-1 {
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-white);
+  font-family: var(--font-kaisei-harunoumi);
+}
+.certifications-parent {
+  position: absolute;
+  top: 0;
+  left: 739px;
+  width: 701px;
+  height: 844px;
+}
+.desktop-1 {
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--color-midnightblue);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .hey-im-kunal {
+    font-size: var(--font-size-25xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .about-me,
+  .education,
+  .projects,
+  .skills {
+    font-size: var(--font-size-lgi);
+  }
+  .hey-im-kunal {
+    font-size: var(--font-size-14xl);
+  }
+  .explore-my-portfolio,
+  .i-thrive-on {
+    font-size: var(--font-size-lgi);
+  }
+}

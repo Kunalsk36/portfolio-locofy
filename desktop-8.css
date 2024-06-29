@@ -1,0 +1,377 @@
+.with-me {
+  color: var(--color-sandybrown);
+  white-space: pre-wrap;
+}
+.contact-with-me-container {
+  margin: 0;
+  height: 66px;
+  width: 440px;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.contact-details {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.feel-free-to {
+  position: relative;
+  font-size: 26px;
+}
+.contact-form-container {
+  width: 812px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 31px;
+  max-width: 100%;
+}
+.contact-form-container-wrapper {
+  width: 1244px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-36xl);
+  color: var(--color-white);
+  font-family: var(--font-kaisei-harunoumi);
+}
+.group-icon {
+  height: 114.1px;
+  width: 191.5px;
+  position: absolute;
+  margin: 0 !important;
+  top: -26px;
+  right: -26.5px;
+}
+.form-fields-child {
+  width: 1244px;
+  height: 613px;
+  position: relative;
+  border-radius: var(--br-31xl) var(--br-136xl) var(--br-31xl) var(--br-136xl);
+  background: linear-gradient(249.74deg, #ec9e69, #f48582 59.5%, #fc6c9c);
+  display: none;
+  max-width: 100%;
+}
+.email-kunalkavathekargmailc {
+  position: relative;
+  text-shadow: 0 4px 3.5px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.name-input-divider {
+  align-self: stretch;
+  height: 424px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: #d9d9d9;
+  z-index: 2;
+}
+.name-inputs {
+  width: 424px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 424px;
+  max-width: 100%;
+}
+.name-labels-child {
+  height: 60px;
+  width: 297px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-linen);
+  display: none;
+}
+.first-name {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.last-name-label-child,
+.name-labels {
+  border-radius: var(--br-mini);
+  background-color: var(--color-linen);
+}
+.name-labels {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-mini) var(--padding-xs);
+  box-sizing: border-box;
+  min-width: 193px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.last-name-label-child {
+  height: 60px;
+  width: 297px;
+  position: relative;
+  display: none;
+}
+.last-name {
+  flex: 1;
+  position: relative;
+  z-index: 3;
+}
+.input-labels,
+.input-labels1,
+.input-labels2,
+.last-name-label {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.last-name-label {
+  flex: 1;
+  border-radius: var(--br-mini);
+  background-color: var(--color-linen);
+  padding: var(--padding-smi) var(--padding-mini) var(--padding-xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  min-width: 193px;
+  white-space: nowrap;
+  z-index: 2;
+}
+.input-labels,
+.input-labels1,
+.input-labels2 {
+  align-self: stretch;
+}
+.input-labels {
+  gap: var(--gap-4xl);
+}
+.input-labels1,
+.input-labels2 {
+  border: 0;
+  background-color: var(--color-linen);
+  outline: 0;
+  border-radius: var(--br-mini);
+  box-sizing: border-box;
+  font-family: var(--font-kaisei-harunoumi);
+  font-size: var(--font-size-5xl);
+  color: var(--color-gray-200);
+  z-index: 2;
+}
+.input-labels1 {
+  width: 100%;
+  height: 60px;
+  padding: var(--padding-smi) var(--padding-mini) var(--padding-xs);
+  min-width: 250px;
+}
+.input-labels2 {
+  height: 268px;
+  width: auto;
+  padding: 24px var(--padding-mini);
+}
+.message-field,
+.message-input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.message-input-area {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+}
+.message-field {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-lgi);
+  box-sizing: border-box;
+  min-width: 401px;
+  max-width: 100%;
+  color: var(--color-gray-200);
+}
+.name-fields {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 83px;
+  max-width: 100%;
+}
+.maharashtra-india,
+.watad-khandala-ratnagiri {
+  margin: 0;
+}
+.watad-khandala-ratnagiri-mah-container {
+  position: relative;
+  text-shadow: 0 4px 3.5px rgba(0, 0, 0, 0.25);
+  z-index: 2;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.submit-button-child {
+  height: 60px;
+  width: 617px;
+  position: relative;
+  border-radius: var(--br-mini);
+  background-color: var(--color-white);
+  display: none;
+  max-width: 100%;
+}
+.send-message {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-family: var(--font-kaisei-harunoumi);
+  color: var(--color-black);
+  text-align: left;
+  z-index: 3;
+}
+.location-and-button,
+.submit-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.submit-button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi) var(--padding-xl) var(--padding-xs)
+    var(--padding-2xl);
+  background-color: var(--color-white);
+  width: 617px;
+  border-radius: var(--br-mini);
+  justify-content: center;
+  box-sizing: border-box;
+  z-index: 2;
+}
+.submit-button:hover {
+  background-color: var(--color-gainsboro-100);
+}
+.location-and-button {
+  width: 1077px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.form-fields {
+  flex: 1;
+  border-radius: var(--br-31xl) var(--br-136xl) var(--br-31xl) var(--br-136xl);
+  background: linear-gradient(249.74deg, #ec9e69, #f48582 59.5%, #fc6c9c);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-10xl) var(--padding-50xl) var(--padding-xl) 51px;
+  box-sizing: border-box;
+  gap: var(--gap-7xs);
+  max-width: 100%;
+  z-index: 1;
+}
+.desktop-8,
+.submission-form {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.submission-form {
+  width: 1244px;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-midnightblue);
+  font-family: var(--font-kaisei-harunoumi);
+}
+.desktop-8 {
+  width: 100%;
+  background-color: var(--color-midnightblue);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: 61px var(--padding-xl) 137px;
+  box-sizing: border-box;
+  gap: var(--gap-59xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .name-fields {
+    gap: 41px;
+  }
+  .form-fields {
+    padding-left: var(--padding-6xl);
+    padding-right: 34px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .contact-with-me-container {
+    font-size: var(--font-size-25xl);
+  }
+  .name-inputs {
+    flex: 1;
+  }
+  .location-and-button,
+  .name-fields {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 750px) {
+  .name-inputs {
+    min-width: 100%;
+  }
+  .input-labels {
+    flex-wrap: wrap;
+  }
+  .message-field {
+    min-width: 100%;
+  }
+  .name-fields {
+    gap: var(--gap-2xl);
+  }
+  .form-fields {
+    padding-top: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .desktop-8 {
+    gap: var(--gap-20xl);
+  }
+}
+@media screen and (max-width: 450px) {
+  .contact-with-me-container {
+    font-size: var(--font-size-14xl);
+  }
+  .feel-free-to {
+    font-size: 21px;
+  }
+  .contact-form-container {
+    gap: var(--gap-mini);
+  }
+  .email-kunalkavathekargmailc,
+  .send-message,
+  .watad-khandala-ratnagiri-mah-container {
+    font-size: var(--font-size-lgi);
+  }
+  .desktop-8 {
+    gap: var(--gap-lgi);
+  }
+}
